@@ -344,7 +344,7 @@ z-index: -1;
     top: 0;
     left: 0;
     background-color: #0a8e83;
-
+    padding-bottom: 1rem;
 }
 .gif{
     width: 70px;
