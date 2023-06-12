@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Poppins:ital,wght@0,100;0,300;1,300&display=swap');
+
+@media  screen and (min-width: 1200px){
+    body{
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+    }
+    .image img{
+        width: 8rem;
+    }
+    .a-links{
+        display: flex;
+    }
+    .bars{
+        display: none;
+    }
+    .circle{
+        left: 5%;
+        top: 17%;
+    }
+    div>i{
+        left: 7.1%;
+        top: 22%;
+    }
+
+
+    /* Head1  */
+    .head1>div>img{
+        object-fit: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .header{
+        left: 2%;
+        top: 27%;
+    }
+    .texthead>h1{
+        font-size: 3rem;
+        
+    }
+    .spar{
+        top: 83%;
+        left: 5.3%;
+    }
+
+    /* Brands  */
+    .brands>a{
+        width: 20%;
+    }
+    /* Solution  */
+    .sol-circle{
+        bottom: 55%;
+        left: 34%;
+    }
+    .sol>p{
+        font-size: 1.2rem;
+        margin: 1rem 13rem;
+    }
+    /* Easy  */
+    .easy{
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin:2.5rem -.1rem;
+        
+    }
+    .title{
+        width: 25%;
+        margin: 3rem 2.5rem;
+        padding: 1rem;
+        
+    }
+    .title>p{
+        text-align: center;
+        font-size: 1rem;
+        margin: 1rem -.5rem; 
+    }
+
+    /* Landik  */
+    .lan>h1{
+        font-size: 2.5rem;
+    }
+    .lan-circle{
+        left:24%;
+        bottom: 49%;
+    }
+    .lan>p{
+        margin: .5rem 22rem;
+        width: 45%;
+    }
+    /* Features  */
+    .feat{
+        padding: 3rem;
+        width: 85%;
+    }
+    .feat-img{
+        width: 100%;
+        margin: auto;
+       
+    }
+    .write-ups{
+        width: 100%;
+        margin: auto;
+    }
+    .write-ups>h1{
+       font-size: 2.3rem;
+       width: 95%;
+    }
+
+    /* Get Started  */
+    .get-started{
+        width: 230vh;
+        margin-left: .2rem;
+    }
+    .get-landik>p{
+        width: 50%;
+        margin-left: 18rem;
+    }
+    .gee{
+        width: 70px;
+        height: 70px;
+        left:45.961% ;
+        top: 126%;
+    }
+    .gee>i{
+        left:30%;
+    }
+    /* Monthlu sub  */
+    .head-sub{
+        margin-top: 4.3rem;
+    }
+    .head-sub>p{
+        width: 45%;
+        margin-left: 22rem;
+      
+    }
+    .pan{
+        left: 21.5%;
+    }
+    /* Price Plans  */
+    .head-plan{
+        flex-wrap: nowrap;
+        margin-bottom: 3rem;
+        
+    }
+    .starters{
+        margin-left: 0;
+        padding: 4rem;
+    }
+    .starters-color{
+        padding: 4rem;
+    }
+    /* Questions  */
+    .questions>p{
+        width: 42%;
+        margin-left: 27%;
+    }
+    .que{
+        left: 27.6%;
+    }
+    .que1{
+        width: 50%;
+        margin-left: 19rem;
+    }
+    /* Help  */
+    .help>a>img{
+        height: 100%;
+        z-index: -1;
+       
+    }
+    .hlp{
+        width:85vh ;
+        height: 35vh;
+        top:8%;
+        left: 4%;
+    }
+    .hep{
+        left: 24.9%;
+        top: 22%;
+    }
+
+
+
+    /* Footer  */
+    footer{
+        /* margin-top: -8rem; */
+        z-index:1;
+       
+    }
+    .foot{
+        z-index: 1;
+       justify-content: space-between;
+       margin-left: -.5%;
+    }
+    footer>hr{
+        width: 83%;
+        margin-left: 2.5%;
+    }
+    .demo{
+        /* justify-content: ; */
+        margin-left: 2rem;
+        gap: 57.5%;
+    }
+    .copy{
+        width: 82%;
+        margin-left: 2%;
+    }
+}
+    
