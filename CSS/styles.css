@@ -335,7 +335,7 @@ z-index: -1;
 .image-bk>a>img{
     z-index: -1;
     width: 85vw;
-    height: 40vh;
+    height: 50vh;
     margin: auto;
     border-radius: 20px;
     /* width: fit-content; */
