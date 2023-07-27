@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Poppins:ital,wght@0,100;0,300;1,300&display=swap');
+
+@media  screen and (min-width: 400px){
+    
+        body{
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        /* Navbar  */
+        div>i{
+          left: 18%;  
+        }
+        .a-links{
+            display: flex;
+        }
+}

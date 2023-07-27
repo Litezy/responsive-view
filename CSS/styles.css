@@ -311,7 +311,8 @@ z-index: -1;
     /* background-color: #000000; */
     position: relative;
     z-index: 1;
-    height: 20rem;
+    height: 50%;
+  
     
    
 }
@@ -319,6 +320,7 @@ z-index: -1;
     position: relative;
     padding: 1rem;
     margin: auto;
+
 }
 .write{
     text-align: center;
@@ -331,11 +333,12 @@ z-index: -1;
 .get-landik{
     z-index: 1;
     position: relative;
+    
 }
 .image-bk>a>img{
     z-index: -1;
     width: 85vw;
-    height: 50vh;
+    height: 40vh;
     margin: auto;
     border-radius: 20px;
     /* width: fit-content; */

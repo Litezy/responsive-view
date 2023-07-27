@@ -8,9 +8,17 @@
     }
     .image img{
         width: 8rem;
+        padding-left: 1rem;
+    }
+    .navhd{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     .a-links{
         display: flex;
+        /* padding-left: 16rem; */
+        margin-left: auto;
     }
     .bars{
         display: none;
@@ -109,23 +117,9 @@
     }
 
     /* Get Started  */
-    .get-started{
-        width: 230vh;
-        margin-left: .2rem;
-    }
-    .get-landik>p{
-        width: 50%;
-        margin-left: 18rem;
-    }
-    .gee{
-        width: 70px;
-        height: 70px;
-        left:45.961% ;
-        top: 126%;
-    }
-    .gee>i{
-        left:30%;
-    }
+   .get-landik{
+    display: none;
+   }
     /* Monthlu sub  */
     .head-sub{
         margin-top: 4.3rem;

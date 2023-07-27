@@ -1,0 +1,124 @@
+
+
+
+@media  screen and (min-width: 540px){
+      /* Headers  */
+      .text-hd{
+        padding-left: 6.5rem;
+      }
+    /* Head and body image  */
+    .main{
+        width: 80%;
+        padding:.1rem 6rem;    }
+    /* Get started with Landik  */
+    .landik{
+        width: 80%;
+        padding-left: 4.5rem;
+    }
+    .get{
+        text-align: center;
+        padding-left: 2rem;
+    }
+    .gif{
+        left: 45%;
+    }
+    .gee{
+        left: 46.7%;
+        top: 116%;
+    }
+    /* Trust  */
+    .trust1{
+        width: 80%;
+        padding-left: 4rem;
+    }
+    .trust1>p{
+        padding:0 2rem 0 2rem;
+    }
+    .trust1>.tr{
+        left: 15%;
+    }
+
+    /* Trust services  */
+    .trust-serv{
+        padding: 1rem;
+    }
+
+    .serv{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    .services{
+        width:40%;  
+        padding-left: 1.5rem; 
+        margin: 1rem;
+        
+    }
+    /* team Crew  */
+    
+    .team1{
+        width: 80%;
+        padding-left: 4rem;
+        margin-top: 7rem;
+        
+    }
+    .team1>p{
+        padding:0 2rem 0 2rem;
+    }
+    .team1>.tr{
+        left: 22%;
+        bottom: 62%;
+    }
+    .team1>h1{
+        padding: 0 2.5rem;
+    }
+    /* Founders  */
+    .found-2{
+        width: 70%;
+        padding:0 6.5rem;
+        margin-bottom: 7rem;
+    }
+    
+    /* Companies  */
+    .company1{
+        width: 80%;
+        padding-left: 4rem;
+    }
+    .company1>p{
+        padding:0 2rem 0 2rem;
+    }
+    .company1>.tr{
+        left: 29%;
+    }
+
+   /* Bk Images  */
+    .bk-img{
+        width: 75%;
+        padding: 0 5.5rem;
+    }
+
+    /* Footer  */
+    footer{
+        padding-left: 1rem;
+    }
+    .latest{
+        width: 65%;
+        margin-left: 7rem;
+    }
+    .landikk{
+        padding-left: 7rem;
+    }
+    footer>hr{
+        width: 70%;
+    }
+    .customer>hr, .help-center>hr{
+        width: 4%;
+    }
+
+    }
+
+
+
+
+
