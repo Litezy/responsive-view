@@ -1,0 +1,303 @@
+@media screen and (min-width: 1280px) and (max-width: 1600px) {
+    
+    .nav>.imghd>img{
+        width: 8rem;
+    
+
+    }
+    .a-links{
+        display: flex !important;
+       padding: 2rem;
+        margin-left: -10rem ; 
+    }
+    .a-links>a:hover{
+        color: #0aa195;
+        transform: scale(0.9);
+        transition: all 500ms ease-in-out;
+    }
+    .a-links>.buynow:hover{
+        color: white;
+        transform: scale(0.9);
+        transition: all 500ms ease-in-out;
+    }
+    .a-links>a{
+        font-size: 0.9rem; 
+        padding: 1rem;
+       color: rgb(65, 61, 61);
+       font-family: poppins !important;
+        font-weight: 600;
+        line-height: 20px;
+       
+    }
+    .image-bk>img{
+        height: 70vh!important;
+        width: 180vw !important; 
+        object-fit: cover;
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+        
+    }
+ 
+    .bars>a>i{
+        display: none !important;
+    }
+    .navhd{
+        padding: 1rem;
+        height: 6.5% !important;
+    }
+    .nav{
+        width: 145% !important;
+        /* border: 2px solid red; */
+        height: 1rem;
+        align-items: center;  
+    }
+    
+    .a-links>.buynow{
+        font-size: 0.8rem;
+        padding: 1rem 1.9rem;
+        background-color: #0aa195;
+        color: white;
+        border-radius: 6%;
+        font-family: poppins;
+        font-weight: 550;
+    }
+   .header-img{
+    z-index: -1;
+   }
+    .header-img>.main{
+        /* border: 2px solid blue; */
+        margin: -2rem 0 1rem 0 ;
+        padding:5rem 1.9rem;
+        width: 90vw;
+    }
+    .text-hd{
+        margin-left: -2rem; 
+       top: 30% !important;
+    }
+   
+    .imghd2>img{
+        width: 95% !important;
+        margin-left: -0.1rem; 
+        margin-top: 2rem;  
+    } 
+    .texts-hd{
+        width: 60% !important;
+        margin-left: 4.2rem;
+        margin-left: 8.5rem;
+         
+    }
+   
+    .texts-2nd{
+        width: 60% !important;
+        margin-right: -4rem;
+      
+       
+    }
+    .texts{
+        display: flex;
+        width: 100% !important;
+        padding: 1rem;
+        margin-left: -9rem;
+    }
+    /* Head and body image  */
+    .main{
+        width: 100% !important;
+    }
+
+    /* Get started  */
+   .lands>img{
+        margin-top: -3rem;
+        width: 95vw !important;
+        margin-left: -3.5rem !important;
+    }  
+    .get{
+        /* text-align: center !important; */
+        margin-left: 6rem   ;
+    }
+    .get>p{
+        margin:0 9rem !important;
+    }
+    .gif{
+        top: 116% !important;
+        left: 47% !important;
+       
+    }
+    .gee{
+        top: 123% !important;
+        left: 48.3% !important;
+    }
+   
+    /* Trust  */
+    .trust{
+        margin-right: -6rem;
+    }
+    .trust1>h1{
+        font-size: 2.5rem !important;
+    }
+    .trust1>p{
+        margin:0 13rem !important;
+    }
+    .trust1>.tr{
+        left: 17% !important;
+        top: 15% !important;
+    }
+
+   
+
+
+
+    /* team  */
+    .team{
+        margin-left: 6rem;
+    }
+    .team1>h1{
+      font-size: 3rem !important;
+    }
+    
+    .team1>p{
+        margin:0rem  12rem 0!important;
+    }
+    .team1>.tr{
+        left: 13.5% !important; 
+        top: -2%  !important;
+    }
+
+
+   /* Services  */
+   .serv{
+      gap: 6.9rem;
+      width: 120%;
+      padding: 1rem;
+      padding: 2rem;
+    
+   }
+  .services{
+      width: 10% !important;
+      /* margin-left: -2rem  !important; */
+   }
+   .services>p{
+      margin: 0 -6rem;
+      font-size: 1rem;
+   }
+   .services>a>img{
+     width: 20% !important;
+   }
+
+
+    /* founders  */
+    .n-img{
+        width: 25%;
+    }
+    .found1{
+        display: flex;
+    }
+    .founders{
+        margin-bottom: 5rem;
+    }
+    .n-img>img{
+        width: 90% !important;
+    }
+    .n-img>hr{
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+    
+   
+
+    /* Company  */
+    .company{
+        margin-left: 6rem;
+    }
+    .company1>p{
+       padding:0 11rem !important;
+    }
+    .company1>h1{
+        font-size: 2.5rem !important;
+    }
+    .company1>.tr{
+        left: 31% !important;
+        top:16% !important; 
+    }
+
+    
+    /* BK images  */
+    .bk-img1{
+        display: flex;
+        width: 132%;
+        margin-left: -5.2rem;
+    }
+    .bk-img1>a{
+        width: 2rem;
+        padding:0 3.5rem;
+    }
+    .bk-im{
+        margin-bottom: 13rem !important;
+    }
+
+    /* Footer  */
+
+    footer{
+        /* height: 60vh; */
+        width: 120%;
+      }
+    .latest{
+        width: 30% !important;
+        height: 43vh!important;
+        left: 37%;
+        bottom: 40%;
+        position: absolute !important;
+        
+       
+        
+    }
+   
+    form>input{
+        padding: .8rem 5rem !important;
+        /* margin-bottom: -.1rem; */
+    }
+    button{
+        margin-top: -28px;
+        margin-bottom: 1.8rem;
+        padding: .7rem 7rem !important;
+    }
+
+
+      /* Landikk  */
+    .landikk{
+        margin-top: 2rem;
+        margin-left: -5rem;
+        padding: 2rem;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .landikk>.lndik>a>img{
+        margin-top: -10rem;
+    }
+    .customer{
+        margin-bottom: -2rem;
+        text-align: start;
+    }
+     
+    .help-center{
+        margin-bottom: -3.9rem;
+        text-align: start;
+    }
+      
+    footer>hr{
+        margin-left: 1rem !important;
+        width: 80% !important;
+        margin-top: 10rem;
+    }
+    .down{  
+       margin-left: 1rem;
+       display: flex;
+       width: 80%;
+       gap: 3rem;
+       align-items: center;
+       justify-content: space-between;
+       
+    }
+}    

@@ -1,0 +1,305 @@
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .a-links{
+     
+        display: none;
+    }
+    
+    .bars{
+        display: block !important;
+        color: rgb(43, 41, 41);
+        font-size: 3rem;
+        
+    }
+    
+    
+    .navhd{
+        height: 9%;
+    }
+     .nav{
+        align-items: center;
+        padding: 1rem;
+       
+       
+    }
+    .image-bk>img{
+        padding: 5rem 0;
+        margin-top: -9rem !important;
+        width: auto !important;
+       
+    }
+     .bars{
+        display: none;
+     }
+     
+    .text-hd{
+        padding: 3.5rem;
+    }
+    .imghd2{
+        margin-top: 2rem;
+        width: 115% !important;
+       margin-left: -4rem !important;
+     
+    }
+    
+    .imghd2>img{
+        border-radius: 30px !important ;
+        /* padding-right: 8rem; */
+       
+    }
+    .texts{
+        display: flex;
+        width: 120%;
+        flex-direction: row;
+        gap: 1.1rem;
+        margin-left: -4rem;
+
+    }
+    .texts-hd{
+        width: 60%;
+        
+    }
+    .texts-2nd{
+        width: 60%;
+    }
+    .header-img{
+        margin-top: -6rem;
+    }
+    
+
+    /* Get started with landik  */
+    
+    .lands>img{
+        height: 25rem !important;
+    }
+    .landik{
+        /* border: 2px red solid; */
+        /* margin-left: 2.5rem; */
+        width: 100%;
+    }
+    
+    .lands>img{
+        width: 93vw;
+        height: 60vh;
+        margin-left: -4rem;
+    }
+   
+    .get>p{
+        margin: 0 4rem;
+    }
+    .get>.gee{
+       left:48.9% !important;
+       margin: auto;
+       top: 157%;
+        
+    }
+    .get>.gif{
+       left: 47% !important;
+        top: 150%;
+        margin: auto;
+    }
+     
+
+    /* Trust  */
+
+    
+    .trust1{
+        /* border: 2px solid blue; */
+        margin: auto;
+        position: relative;
+        text-align: center;
+        margin-left: .6rem;
+    }
+    .trust1>h1{
+        font-size: 2.4rem;
+        padding: 0 rem;
+    }
+    .trust1>.tr{
+        top: -6% !important;
+        left: 9% !important;
+    }
+    .trust1>p{
+        margin: 0 4rem;
+        
+    }
+    .trust1>.tr{
+        left: 50%;
+    
+    }
+  
+
+    /* Trust services  */
+    .trust-serv{
+        margin-top: -2rem;
+        /* border: #0aa195 2px solid; */
+    }
+    
+    .serv{
+        margin-left: 2rem;
+        padding: 5rem;
+        /* border: 2px red solid; */
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: wrap !important;
+        width: 120%;
+        gap: 4em;
+    }
+    .services{
+        /* border: yellow 1px solid ; */
+        width: 40% !important;
+        margin-left: -7rem !important;
+    }
+
+
+    /* Team  */
+    .team{
+        margin-top: -7rem;
+    }
+    .team1{
+        /* margin: auto; */
+        position: relative;
+    }
+    .team1>h1{
+        font-size: 2.5rem;
+    }
+    .team1>p{
+        margin: 0 1rem;
+    }
+    .team1>.tr{
+        left: 19% !important;
+        top: -9% !important;
+    }
+   
+   /* Founders  */
+    .found1{
+        display: flex;
+        flex-wrap:wrap ;
+     }
+    .n-img{
+        width: 50%;
+        gap: 3rem;
+        /* margin:0 .1rem; */
+        text-align: center;
+        margin-bottom: 2rem;
+     }
+    .n-img>hr{
+        width: 60%;
+        border: none;
+        border-bottom: 0.1px solid rgb(43, 41, 41); 
+     }
+    .n-img>img{
+        width: 95%;
+    
+     }
+    .n-img>i{
+        margin:1rem 1rem;
+        font-size: 1.4rem;
+      }
+    .n-img>i:hover{
+          color: #0aa195;
+      }
+
+     
+     
+
+     /* Companys  */
+    .company{
+        position: relative;
+        margin-top: 3rem;
+     }
+    .company1>h1{
+        font-size: 2.5rem;
+     }
+    .company1>p{
+        margin:0  2rem;
+     }
+    .company1>.tr{
+        left: 25% !important;
+        top: 15% !important;
+        position: absolute;
+     }
+     /* Bk images  */
+      
+    .bk-img{
+
+        margin: auto;
+        /* padding: 0 20rem; */
+      }
+    .bk-img1{
+        height: 9rem;
+        /* margin: auto; */
+       display: flex;
+        flex-direction: row;
+        margin-left: -5.7999rem;
+        width: 133%;
+    }
+    .bk-img1>a>img{
+        /* border: 1px solid red; */
+        width: 200%;
+        margin:-.8rem 0 0 -2rem;
+      
+    } 
+
+      /* fOOTER */
+    footer{
+        width: 120%;
+      }
+    .latest{
+        width: 60% !important;
+        margin-left: 5rem !important;
+       
+        
+    }
+    .latest1>p{
+        margin:1rem 3rem;
+        padding-bottom: 1rem;
+    }
+    form>input{
+        padding: .8rem 8rem !important;
+        /* margin-bottom: -.1rem; */
+    }
+    button{
+        margin-top: -28px;
+        margin-bottom: 1.8rem;
+        padding: .7rem 10rem;
+    }
+
+
+      /* Landikk  */
+    .landikk{
+        margin-top: 2rem;
+        margin-left: -5rem;
+        /* border: 2px solid red; */
+        padding: 2rem;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        /* margin-left: 3rem; */
+    }
+    .landikk>.lndik>a>img{
+        margin-top: -10rem;
+    }
+    .customer{
+        margin-bottom: -2rem;
+        text-align: start;
+    }
+     
+    .help-center{
+        margin-bottom: -3.9rem;
+        text-align: start;
+    }
+      
+      footer>hr{
+        margin-left: 2rem !important;
+        width: 70% !important;
+    }
+    .down{
+        /* border: 2px solid red; */
+        margin-left: 2rem;
+        display: flex;
+        width: 70%;
+        align-items: center;
+        justify-content: space-between;
+    }
+} 

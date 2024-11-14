@@ -24,23 +24,27 @@ a{
     border-bottom: 0.5px solid rgb(242, 235, 235);
     background-color: white;
     width: 100vw;
+    height: 8%;
     top: 0;
     left: 0;
     z-index: 3;
+    /* border: 2px solid red; */
 
     
 }
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1.2rem;
     width: 90%;
     position: relative;
+    text-align: center;
+    /* border: 2px solid red; */
     
 }
 .imghd>img{
     width: 8rem;
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 .a-links{
     display: none;
@@ -51,7 +55,7 @@ a{
     padding-right: 1rem;
 }
 /* Headers  */
-/* .head2{
+.head2{
     position: relative;
 }
 .text-hd{
@@ -64,8 +68,9 @@ a{
     margin-bottom:1.5rem;
 }
 .image-bk>img{
-   width:50rem;
-    height: 21rem;
+    margin-top: -2rem;
+    height: 55vh;
+    max-width:max-content;
 }
 .first-span{
     padding: .7rem 1.2rem;
@@ -73,29 +78,12 @@ a{
     color: white;
     border-radius: 5px;
     
-} */
-.head2 {
-    height: 60vh;
-    position: relative;
-    width: 100vw;
-    overflow: hidden;
-}
-.image-bk>img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-position: center;
 }
 .text-hd{
    
     position: absolute;
     top:22%;
     padding: 1rem;
-}
-.text-hd>p{
-    margin-bottom:1.5rem;
 }
 .first-span{
     padding: .7rem 1.2rem;
@@ -107,7 +95,7 @@ a{
 
 /* Header-img  */
 .header-img{
-    padding: 1rem;
+    /* padding: 1rem; */
     z-index: 2;
     
     
@@ -116,19 +104,20 @@ a{
     display: block;
     /* gap: 5rem; */
     margin-top: 5rem;
+    padding: 1rem;
+    /* border: 2px solid yellow; */
 }
 
 .imghd2>img{
     width: 100%;
-    height: 100%;
+    /* height: 21vh; */
     border-radius: 2rem;
     margin-bottom: 2rem;
-  
-    /* padding: 1rem; */
+    margin-top: -4rem;
     object-fit: cover;
    
 }
-.texts>a{
+.texts>.texts-hd>a{
     display: block;
     align-items: center;
     padding: 5px;
@@ -139,14 +128,14 @@ a{
     padding-left: 8px;
     color: #6c7789;
 }
-.texts>a>i{
+.texts>.texts-hd>a>i{
     padding: 2px;
     color: white;
     background-color: #0aa195;
     border-radius: 100%;
     font-size: 10px;
 }
-.texts>p{
+.texts>.texts-2nd>p{
     color: #6c7789;
 }
 
@@ -165,7 +154,7 @@ a{
 }
 .lands>img{
     width: 100%;
-    height: 26rem ;
+    height: 27rem ;
     background-color: #0aa195;
     object-fit: cover;
     border-radius: 10px;
@@ -184,6 +173,7 @@ a{
 }
 .get>p{
     font-size: 1.2rem;
+    padding: 0 1rem;
     color: white;
 }
 .gif{
@@ -198,12 +188,12 @@ a{
 }
 .gee{
     position: absolute;
-    width: 65px;
-    height: 65px;
+    width: 63px;
+    height: 63px;
     border-radius: 50%;
     background-color: white;
-    top: 114%;
-    left: 42%;
+    top: 114.7%;
+    left: 40.7%;
 }
 .gee>i{
     font-size: 1rem;
@@ -215,13 +205,17 @@ a{
 
 /* Trust  */
 .trust{
+    padding: 1rem;
     position: relative;
 }
 .trust1{
     text-align: center;
 }
+.trust1>h1{
+    font-size: 1.6rem;
+}
 .trust1>p{
-    padding: .5rem;
+    padding: .8rem;
     color: #6c7789;
     font-size: 1.1rem;
 }
@@ -243,6 +237,9 @@ a{
     margin-top: 3rem;
     margin-bottom: 4rem;
 }
+.services>p{
+    padding: .8rem;
+}
 .services>h1{
     font-size: 2.5rem;
 }
@@ -262,63 +259,68 @@ a{
 .team1{
     text-align: center;
 }
+.team1>h1{
+    font-size: 1.6rem;
+}
 .team1>p{
-    padding: .5rem;
+    padding: .6rem;
 }
 .team1>.tr{
    left: 9%; 
+   top: -10%;
 }
 
 /* Founders  */
-.founders1{
-    padding: 1rem; 
+.founders{
+    /* border:1px solid red; */
+    margin-top: 3rem;
+}
+.found1{
+    padding: 1rem;
+}
+.n-txt{
+    text-align: center;
     margin-bottom: 2rem;
 }
-
-.found-img>img{
-   border-radius: 20px;
-    height: 100%;
-    width: 100%; 
+.n-img>img{
+    width: 100%;
+    margin: auto;
+    border-radius: 25px;
 }
-
-.found-txt{
-    text-align: center;
-    margin-bottom: 3rem;
+.n-txt>h1{
+    font-size: 1.4rem;
 }
-.found-txt>h1{
-    font-size: 1.7rem;
+.n-txt>hr{
+    width: 60%;
+    border-bottom: 0.1px rgb(43, 41, 41); 
 }
-.found-txt>hr{
-    width: 80%;
-    margin-bottom: 1.9rem;
-    border: none;
-    border-bottom: 1px solid  #6c7789;
-
+.n-txt>i{
+  margin:1rem 1rem;
+  font-size: 1.4rem;
 }
-.found-txt>a>i{
-    color: black;
-    display: inline;
-    padding: 0rem;
-    border-radius: 50%;
-    font-size: 1.3rem; 
-    padding: 1rem;
-    transition: all 500ms ease-in-out;
-    
-}
-.found-txt>a>i:hover{
+.n-txt>i:hover{
     color: #0aa195;
 }
 
 /* Companies  */
 .company{
+    padding: 1rem;
     position: relative;
+    /* margin-top: -.4rem; */
 }
 .company1{
     text-align: center;
 }
+.company1>h1{
+    font-size: 1.6rem;
+}
+.company1>p{
+    font-size: 1.09rem;
+    /* padding: .8rem; */
+}
 .company1>.tr{
      left: 20%;
-     bottom:50%;
+     bottom:55%;
 }
 
 /* Bk Images  */
@@ -326,6 +328,7 @@ a{
     text-align: center;
     padding: .1rem;
     background-color: #0aa195;
+    
     border-radius: 5px;
 }
 
@@ -372,8 +375,10 @@ form>input{
     border: 1px solid white;
     background-color: #2fafa5;
     border-radius: 5px;
-    
-
+}
+::placeholder{
+    color: white;
+    text-align: center;
 }
 button{
     padding: 1rem 4.8rem;

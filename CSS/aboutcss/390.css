@@ -1,0 +1,19 @@
+@media screen and (min-width: 380px) {
+    .tr{
+        left: 6% !important;
+        top: 5%;
+    }
+    .team1>.tr{
+        left: 9% !important;
+        top: -12% !important;
+    }
+    .company1>.tr{
+        left: 20% !important;
+    }
+    .image-bk>img{
+        width: 100vw !important;
+    }
+    .gee{
+        left: 9rem  !important;
+    }
+}

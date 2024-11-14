@@ -20,10 +20,10 @@
         padding-left: 2rem;
     }
     .gif{
-        left: 45%;
+        left: 46%;
     }
     .gee{
-        left: 46.7%;
+        left: 47.79%;
         top: 116%;
     }
     /* Trust  */
@@ -35,7 +35,8 @@
         padding:0 2rem 0 2rem;
     }
     .trust1>.tr{
-        left: 15%;
+        left: 10%;
+        top: -20%;
     }
 
     /* Trust services  */
@@ -67,8 +68,8 @@
         padding:0 2rem 0 2rem;
     }
     .team1>.tr{
-        left: 22%;
-        bottom: 62%;
+        left: 16%;
+        bottom: 50%;
     }
     .team1>h1{
         padding: 0 2.5rem;
@@ -89,7 +90,7 @@
         padding:0 2rem 0 2rem;
     }
     .company1>.tr{
-        left: 29%;
+        left: 30%;
     }
 
    /* Bk Images  */
